@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot --prod"
   },
   "private": false,
   "dependencies": {
@@ -72,5 +73,9 @@
   "bugs": {
     "url": "https://github.com/rahulsahay19/sample-angular-crud-app/issues"
   },
-  "homepage": "https://github.com/rahulsahay19/sample-angular-crud-app#readme"
+  "homepage": "https://github.com/rahulsahay19/sample-angular-crud-app#readme",
+    "engines": {
+    "node" : "~8.15.1",
+    "npm" : "~6.4.1"
+  }
 }
