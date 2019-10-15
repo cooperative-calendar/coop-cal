@@ -75,7 +75,7 @@
   },
   "homepage": "https://github.com/rahulsahay19/sample-angular-crud-app#readme",
     "engines": {
-    "node" : "~8.15.1",
-    "npm" : "~6.4.1"
+    "node" : "~12.1.0",
+    "npm" : "~6.9.0"
   }
 }
